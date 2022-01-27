@@ -1,0 +1,15 @@
+[package]
+name = "cli"
+version = "0.1.0"
+authors = ["Andrew Palmer <atp@sdf.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+quicli = "0.4.0"
+structopt = "0.3.9"
+
+[[bin]]
+name = "cli"
+path = "main.rs"
